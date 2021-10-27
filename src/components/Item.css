@@ -68,10 +68,13 @@
   display: flex;
 }
 
-.item__item_expand {
+.item__expand {
   color: #fff;
   width: 100%;
   margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
