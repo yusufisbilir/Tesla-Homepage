@@ -1,0 +1,51 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  background: none;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  margin: 15px;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.header__logo {
+  height: 24px;
+  width: 100px;
+  margin-top: 7px;
+}
+
+.header__center {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__center > p {
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-transform: uppercase;
+}
+
+.header__right > p {
+  margin: 10px 20px 10px 10px;
+}
+/*# sourceMappingURL=Header.css.map */
