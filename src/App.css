@@ -1,0 +1,7 @@
+.app__itemsContainer {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow: auto;
+  height: 100vh;
+}
+/*# sourceMappingURL=App.css.map */
